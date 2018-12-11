@@ -1,0 +1,35 @@
+body { 
+background-image: url(../../img/fondoIntro.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+overflow-x: hidden;    
+}
+
+#emepezarjuego{
+    margin-top: 550px;
+}
+
+.img-responsive {
+  text-align: center;
+  display:block;
+  max-width: 100%;
+  height: auto;
+  padding: 2%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#button-container {
+  position: absolute;
+    width: 100%;
+    bottom: 16%;
+}
+
+.animal-button {
+  position: relative;
+    width: 450px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}

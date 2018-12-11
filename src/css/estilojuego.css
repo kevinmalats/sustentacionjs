@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+
+body {
+background-image: url(../../img/background-avatar.png);
+background-position: center center;
+background-repeat: no-repeat;
+/*background-attachment: fixed;
+background-size: cover;*/
+}
+
+
+img {
+  width: 80px;
+}
+
+.avatar-container {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+.mi-tablas{
+text-align:center;
+margin-left: 35%;
+border: inset 0pt;
+margin: 0 auto
+
+
+}
+
+.mi-tablas td{
+ width: 30%;
+
+border: inset 0pt;
+
+}
+.micelda img{
+  height:130px;
+ width: 120px;
+border-radius: 20px;
+
+
+}
+.tiempo{
+  display: flex;
+
+}
+.tiempo span{
+  margin-top: 2px;
+}
+.tiempo h5{
+  margin-left: 10px;
+
+}
+.personal {
+  height: 200px;
+  width: 200px;
+  margin-top: 40%;
+    padding: 3%;
+}
+.padre {
+  display: flex;
+  justify-content: center;
+}
+.hijo {
+  padding: 10px;
+  margin: 10px;
+text-align:center;
+}
+#audio{
+display: none;
+}
+#audioultra{
+display: none;
+}
+#audioclick{
+display: none;
+}
+
+/* Z-index of #mask must lower than #boxes .window */
+#mask {
+  position:absolute;
+  z-index:7000;
+  height:220px;
+/*background-image: url("../../img/globos.jpg");*/
+  display:none;
+}
+
+#boxes .window {
+  position:fixed;
+  width:440px;
+  height:220px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+
+}
+
+.eleModel {
+  /* IMPORTANTE */
+   display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#dialog span {
+    margin-left: 120px;
+    color: black;
+    font-family: monospace;
+    font-size: large;
+
+}
+/* Customize your modal window here, you can add background image too */
+#boxes #dialog {
+  width:375px;
+  height:220px;
+  background-image: url(../../img/win.jpg)
+
+
+}
+
+.salir-icon {
+  float: right;
+    width: 15%;
+    margin-bottom: auto;
+
+}
+
+.nuevo{
+  display: none;
+}
+.niveles{
+  display: none;
+}
+
+.editar{
+  display: none;
+}
+
+.personal h4 {
+  font-family:"Mystery Quest", cursive;
+
+font-size: 300%;
+  color: #317b76;
+  display: inline-block;
+
+
+}
+
+#nivel h1{
+    font-family:"Mystery Quest", cursive;
+
+  font-size: 200%;
+    color: #53bdb5;
+    display: inline-block;
+
+}
+
+
+
+#tiempo{
+  float: left;
+
+}
+img {
+    display:block;
+    margin:auto;
+}
+
+#nivel{
+    display: inline-block;
+    margin:auto;
+
+}
+
+#video{
+    padding-top: 100px;
+    margin-left: 650px;
+    display: none;
+}
+
+#sonido{
+
+}
+.tablamain{
+    display: flex;
+    justify-content: center;
+}
+.fila{
+  display: flex;
+    justify-content: center;
+
+}
+.padre {
+  display: none;
+  justify-content: center;
+}
+.hijo {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+
+}
+
+#regresar {
+  padding-top: 1%;
+    padding-bottom: 1%;
+}
+#padreniveles{
+  display: none;
+}
+
+.imagenavatar{
+    float: right;
+  margin-left: 90%;
+}
+
+.oi{
+    width: 40px; height: 40px
+}
+
+img#casa{
+    position: absolute;
+    margin-left: 75%;
+    width: 30px;
+    height: 30px;
+    
+    
+}

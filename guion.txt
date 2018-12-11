@@ -1,0 +1,3 @@
+guion para pantalla juego
+audio que diga: "continua con el siguiente nivel"
+
